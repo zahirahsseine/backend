@@ -1,0 +1,16 @@
+name: Test Pipeline
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Run test command
+        run: echo "Hello from Test Pipeline GitHub Actions"
