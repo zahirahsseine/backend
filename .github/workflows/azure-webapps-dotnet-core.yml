@@ -17,4 +17,4 @@ jobs:
         run: echo "Hello from  Test Pipeline GitHub Actions"
 
       - name: Create file
-        run: echo "This is a test file." > $(variables.fileName)
+        run: echo "This is a test file." > $fileName

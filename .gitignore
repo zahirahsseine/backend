@@ -1,4 +1,12 @@
-
+# ---- General ----
+node_modules/
+dist/
+build/
+.env
+.env.local
+*.log
+*.tmp
+.DS_Store
 
 # ---- .NET ----
 bin/
@@ -11,6 +19,11 @@ obj/
 
 # ---- Visual Studio ----
 .vs/
+
+# ---- Yarn / npm ----
+.yarn/
+package-lock.json
+yarn-error.log
 
 # ---- IDE settings ----
 .idea/
