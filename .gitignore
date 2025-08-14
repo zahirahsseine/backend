@@ -1,0 +1,39 @@
+# ---- General ----
+node_modules/
+dist/
+build/
+.env
+.env.local
+*.log
+*.tmp
+.DS_Store
+
+# ---- .NET ----
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.config
+*.dbmdl
+
+# ---- Visual Studio ----
+.vs/
+
+# ---- Yarn / npm ----
+.yarn/
+package-lock.json
+yarn-error.log
+
+# ---- IDE settings ----
+.idea/
+*.iml
+
+# ---- Coverage / Testing ----
+coverage/
+*.coverage
+*.coveragexml
+TestResults/
+
+# ---- Azure / GitHub Actions temp files ----
+*.publishsettings
