@@ -18,3 +18,12 @@ jobs:
 
       - name: Create file
         run: echo "This is a test file." > $fileName
+      - name: Show warning in PowerShell
+        run: |
+          Write-Warning "This is a warning message from PowerShell"
+        shell: pwsh
+
+      - name: Show warning in Bash
+        run: |
+            echo "This is a warning message from Bash"
+        shell: bash
