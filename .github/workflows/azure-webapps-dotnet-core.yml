@@ -24,6 +24,5 @@ jobs:
         shell: pwsh
 
       - name: Show warning in Bash
-        run: |
-            echo "This is a warning message from Bash"
+        run: echo "##[warning] Au boulot maintenant"
         shell: bash
